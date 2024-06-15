@@ -1,0 +1,421 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+  
+header{
+    background-image: url(img/toyh.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 50rem;
+
+}
+/*.nav-b{
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+
+}*/
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a5c926;
+    padding: 10px 20px;
+    color: white;
+
+}
+.right-nav{
+    display: flex;
+}
+
+.nav-top-mail{
+    padding-left: 15px;
+}
+.mail-nav{
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+  
+   
+}
+
+.nav-menu a{
+    margin-left: 3rem;
+    text-decoration: none;
+ 
+}
+
+.main-nav a{
+    text-decoration: none;
+ 
+    
+}
+
+.cart{
+    color: black;
+    display: flex;
+    margin-left: auto;
+}
+.cart-icon {
+        vertical-align: top;
+        margin-right: 100px;
+       
+
+}
+
+.center-box{
+    display: grid;
+    place-items: center;
+    margin: 10rem 20rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+    width: 700px;
+    height: 250px;
+    justify-content: center;
+}
+
+.title{
+color: #a5c926;
+}
+
+.button-w-button{
+    background-color: #a5c926;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 15px;
+}
+
+.toys {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+}
+
+.bear {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: #ffc12c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30rem;
+  
+}
+
+.toy {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: #fb416b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30rem;
+  
+}
+
+.bear-i{
+    display: flex;
+    flex-wrap: nowrap;
+   
+    
+}
+.toy-i{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.desc a{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.sec{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 15%;
+    gap: 20px;
+}
+
+.sec a{
+    text-decoration: underline;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.s-wood{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px; /* Space between the boxes */
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+
+}
+
+.image-s{
+    width: 200px;
+    height: auto;
+}
+
+.stuff {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teddy{
+    height: 12rem;
+}
+
+.price{
+    background-color: #a5c926;
+    border-radius: 2rem;
+    height: auto;
+    width: 10rem;
+    color: white;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.scrolled-back {
+    /* The image used */
+    background-image: url(img/sr.jpg);
+
+    /* Full height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    height: 1000px; /* To create scrollable content */
+    font-size: larger;
+}
+
+.play-button a{
+    width: 60px; /* Button width */
+    height: 60px; /* Button height */
+    border-radius: 50%; /* Makes the button circular */
+    border: none; /* Removes default border */
+    background-color: #a5c926; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 20px; /* Button text size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Changes cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    margin-left: 50%;
+}
+
+.tex{
+   
+    padding-top: 10rem;
+  
+}
+
+.co-tex{
+    color: #a5c926;
+    text-align: center;
+}
+.tex h2{
+    margin-right: 30px;
+    text-align: center;
+}
+.side{
+    display: flex;
+    margin: 150px;
+}
+
+.image-ss{
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
+
+}
+
+.divider{
+
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height */
+    background: linear-gradient(to right, #a5c926,#a5c926); /* Gradient background */
+    margin: 40px 0; /* Space around the divider */
+    width: 40px;
+
+}
+
+.a-side{
+    color: grey;
+   padding: 5px;
+   font-size: large;
+  
+}
+
+.telegram{
+    width: 70px; /* Button width */
+    height: 70px; /* Button height */
+    border-radius: 50%; /* Makes the button circular */
+    border: none; /* Removes default border */
+    background-color: #a5c926; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 20px; /* Button text size */
+    
+    justify-content: center;
+    align-items: center; 
+}
+
+.in{
+    height: 15px;
+    width: 250px; /* Set the width of the input box */
+    padding: 10px; /* Add padding inside the input box */
+    border: 2px solid ,grey; /* Set border color */
+    border-radius: 15px; /* Round the corners */
+    outline: none; /* Remove default outline */
+    font-size: 16px; /* Set font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+    background-color: lightgray;
+
+}
+
+.sub{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 30px; /* Space between the boxes */
+    width: 50rem;
+    background-color: whitesmoke;
+    margin-left: 20rem;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.text-green{
+    color: #a5c926;
+}
+
+.full-width{
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+.l-button{
+margin-top: 40px;    
+margin-left: 43%;
+margin-bottom: 60px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #a5c926;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section .social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-section .social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+
